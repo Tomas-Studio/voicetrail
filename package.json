@@ -1,0 +1,30 @@
+{
+  "name": "voicetrail",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "keywords": [
+    "e-ballot",
+    "voting",
+    "event"
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3015",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "0.7.2",
+    "eslint": "^8.57.0 || ^9.0.0",
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "@commitlint/prompt-cli": "^19.6.0"
+  }
+}
